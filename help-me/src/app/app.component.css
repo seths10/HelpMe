@@ -1,0 +1,38 @@
+header {
+    max-width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #ABC4FF;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.nav {
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a{
+    color: black;
+}
