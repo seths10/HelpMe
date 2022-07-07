@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(#c1d3fe,#ABC4FF);
+    height: 100vh;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+}
+.about img{
+    margin-left: -200px;
+    margin-top: 100px;
+    height: 600px;
+    width: 800px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: grey;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.about-text p{
+    color:black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid wheat;
+    cursor: pointer;
+}
+.CU{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+
+.CU h3{
+    padding-bottom: 10px;
+}
+
+.CU ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
