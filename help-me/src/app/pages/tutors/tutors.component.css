@@ -1,0 +1,67 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin:  0;
+    padding: 0;
+    font-family: montserrat;
+    background: radial-gradient(lightblue,#ABC4FF);
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.pokemon-card {
+    display: grid;
+    grid-gap: 16px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+}
+
+.pokemon-card .box {
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.05),
+        rgba(255,255,255,0.05)
+    );
+    height: 300px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    display: grid;
+    /* text-align: center; */
+}
+
+.pokemon-card .box h3{
+    text-align: center;
+}
+
+.pokemon-card .box p{
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+.pokemon-card .box img{
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box img:hover {
+    transform: rotateY(180deg);
+    transition: all .8s ease;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 300;
+    color: aquamarine;
+}
