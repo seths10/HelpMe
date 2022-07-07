@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     LoginComponent,
     RegisterComponent,
     AboutUsComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,
