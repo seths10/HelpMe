@@ -1,0 +1,18 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<header>
+    <div class="title">
+        <h1>HelpMe</h1>
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li> <a routerLink="/landing-page" class="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><h1>Home</h1></a></li>
+            <li><a routerLink="/tutors" class="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><h1>Find a Mentor</h1></a></li>
+            <li><a routerLink="/login" class="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><h1>Login</h1></a></li>
+            <li> <a routerLink="/aboutUs" class="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><h1>Contact Us</h1></a></li>
+        </ul>
+    </div>   
+</header>
+<router-outlet></router-outlet>
