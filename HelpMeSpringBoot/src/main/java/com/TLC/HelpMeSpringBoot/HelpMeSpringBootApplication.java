@@ -1,13 +1,13 @@
-package com.turntabl.helpme;
+package com.TLC.HelpMeSpringBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelpMeApplication {
+public class HelpMeSpringBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelpMeApplication.class, args);
+		SpringApplication.run(HelpMeSpringBootApplication.class, args);
 	}
 
 }

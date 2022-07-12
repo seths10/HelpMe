@@ -1,25 +1,46 @@
-package com.turntabl.helpme.Models;
+package com.TLC.HelpMeSpringBoot.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
-@Table(name = "tutor")
-public class Tutor {
+public class Tutors {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer tutor_id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long tutor_id;
+
     private String first_name;
+
     private String last_name;
+
     private String email;
-    private String tutor_password;
+
+    private String password;
+
     private String skill;
+
     private String day_available;
 
-    public Integer getTutor_id() {
+    public Tutors() {
+    }
+
+    public Tutors(long tutor_id, String first_name, String last_name, String email, String password, String skill, String day_available) {
+        this.tutor_id = tutor_id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.email = email;
+        this.password = password;
+        this.skill = skill;
+        this.day_available = day_available;
+    }
+
+    public long getTutor_id() {
         return tutor_id;
     }
 
-    public void setTutor_id(Integer tutor_id) {
+    public void setTutor_id(long tutor_id) {
         this.tutor_id = tutor_id;
     }
 
@@ -47,12 +68,12 @@ public class Tutor {
         this.email = email;
     }
 
-    public String getTutor_password() {
-        return tutor_password;
+    public String getPassword() {
+        return password;
     }
 
-    public void setTutor_password(String tutor_password) {
-        this.tutor_password = tutor_password;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getSkill() {
